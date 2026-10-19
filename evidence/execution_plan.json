@@ -1,0 +1,139 @@
+{
+  "campaign": "fhboc_large_validation_20261017",
+  "created_utc": "2026-10-16T17:26:08.455534+00:00",
+  "budget_seconds": 86400,
+  "bulk_root": "EXTERNAL_USER_HOME\\fhboc_research_runs\\fhboc_large_validation_20261017",
+  "result_root": "PROJECT_ROOT\\results\\diagnostics\\fhboc_large_validation_20261017",
+  "cn0_db_hz": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "conditions": [
+    1,
+    2
+  ],
+  "geometry_candidates": [
+    12,
+    9,
+    6
+  ],
+  "H1_per_strength_bounds": [
+    50,
+    200
+  ],
+  "H1_step": 10,
+  "geometries_per_condition": 9,
+  "H1_per_strength": 80,
+  "calibration_H0": 400,
+  "test_H0": 800,
+  "frames": 6,
+  "sample_rate_hz": 100000000,
+  "reference_time_s": 0.0025,
+  "target_pfa": 0.02,
+  "grid": {
+    "fd_half_width_hz": 2500,
+    "fd_step_hz": 62.5,
+    "tau_half_width_chips": 1.5,
+    "tau_step_samples": 0.5,
+    "rate_bounds_hz_s": [
+      -250000,
+      250000
+    ],
+    "rate_step_hz_s": 25000
+  },
+  "response": {
+    "template_tau_step_samples": 0.125,
+    "batch_size": 128
+  },
+  "seeds": {
+    "hop": 1100000000,
+    "aiding": 1200000000,
+    "truth": 1300000000,
+    "pod": 1400000000,
+    "probe": 1500000000,
+    "noise": 1700000000
+  },
+  "methods": [
+    "PIML-full",
+    "PIML-64",
+    "manual-stop",
+    "learned-stop",
+    "NCI",
+    "NCI-compensated",
+    "BASIC-quarter-ms"
+  ],
+  "controller_sha256": "9fe438411a6fcbd30acb95c585ab2529aa7db4751b1b172fe03a6b4a85734804",
+  "controller_weights_sha256": "896bffadcd4dfa3eed66c30da15be577a54a67b80534e25a9cc85d589207f166",
+  "PIML_sha256": "b72c79514df3b00e500e37feae4cd47e4d79e2ed7da4347294d4ae262aaf8f89",
+  "thresholds": {
+    "learned_stop": 0.1,
+    "manual_stop": 0.154072
+  },
+  "calibration": "Each reference method: ascending order ceil((n+1)*(1-Pfa)), strict >; stopped methods inherit PIML-64 gate",
+  "partition": "g mod 3 = 0: transfer stratum; remaining: nominal. Report strata separately.",
+  "nominal_dynamics": {
+    "low": [
+      50000,
+      3230
+    ],
+    "high": [
+      1500000,
+      200230
+    ]
+  },
+  "transfer_dynamics": "New geometry: fd +/-10%, rate magnitude +/-15%, alternating rate sign. Same observations for every method.",
+  "pairing": "Same full six-frame standardized H1 noise across all nine C/N0 values; H0 counted once",
+  "baseline": {
+    "NCI": "Existing static aided energy statistic",
+    "compensated_NCI": "Frozen full-grid TrajectoryNCI 4096 FFT",
+    "BASIC": "Frozen corrected quarter-ms BlockAdapter, 500 Hz coarse bank, 2048/2048 FFT"
+  },
+  "statistics": "Per geometry and stratum counts; noise-cluster pairing; paired method differences; Ph conditional errors; measured warm-bank costs",
+  "model_updates": 0,
+  "manuscript_updates": false,
+  "interpretation": "Weak-signal operating characteristics and incremental stopping tradeoff; lower C/N0 alone is not attributed to model generalization",
+  "selection": "Choose geometry count and H1 count solely from a separate high-dynamic profile g99; no main outcome inspection",
+  "profiling": {
+    "source": "profile_c2_g99",
+    "setup_seconds": 362.5007238,
+    "conservative_seconds_per_record": 2.660748502516032,
+    "elapsed_seconds": 414.2729580999585,
+    "estimated_main_seconds": 81822.5754082381,
+    "allocation": "Calibrate five reference methods; timed test captures use all seven. 15% variable-cost and 20% setup margins.",
+    "calibration_seconds_per_record": 1.8050677900094252,
+    "class_seconds_per_record": {
+      "H0": 1.7861078350125812,
+      "30": 1.8666556500887705,
+      "31": 1.7050617999922215,
+      "32": 1.7573861499769823,
+      "33": 1.9032768499481207,
+      "34": 2.313694350013941,
+      "35": 2.3117340998338225,
+      "36": 2.2938878498963424,
+      "37": 2.2327658498974943,
+      "38": 2.19866260008161
+    },
+    "allocation_tiers": [
+      {
+        "geometries_per_condition": 12,
+        "H1_per_strength": 30
+      },
+      {
+        "geometries_per_condition": 9,
+        "H1_per_strength": 80
+      }
+    ]
+  },
+  "main_observations": 34560,
+  "main_H1": 12960,
+  "main_calibration_H0": 7200,
+  "main_test_H0": 14400,
+  "allocation_version": 2
+}

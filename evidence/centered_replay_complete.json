@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "mathematical_gate": {
+    "single_peak_passed": true,
+    "two_mode_primary_objective_passed": true,
+    "near_ties_remain_distinct": true,
+    "permutation_equivariance_passed": true
+  },
+  "geometries": 18,
+  "noiseless_correct": 18,
+  "noisy_records": 144,
+  "noisy_signal_records": 108,
+  "noisy_readouts_changed": 1,
+  "all_detection_scores_unchanged": true,
+  "noisy_handoff_gains": 0,
+  "noisy_handoff_losses": 0,
+  "scope": "Fixed regression selection; original full campaign events and paper unchanged.",
+  "readout_sha256": "724ff91f2709e42e7fe680cb7e2ecbd4aee29233488c2019249e3a2e4e9b3458",
+  "source_sha256": "62c6de8bc1d333ea4304dcb6d10e7a7d85798ec603a15d18e9376d6a9f5868cf"
+}

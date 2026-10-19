@@ -1,0 +1,83 @@
+{
+  "records": 27360,
+  "times_seconds": {
+    "PIML-full": 0.9443342897922977,
+    "PIML-64": 0.31281012540871816,
+    "manual-stop": 0.19223293489108526,
+    "learned-stop": 0.17214838688997317
+  },
+  "manual_saving_relative_rank64": 0.38546447420807295,
+  "learned_saving_relative_rank64": 0.4496713088649422,
+  "increment_percentage_points_on_rank64": 6.4206834656869205,
+  "relative_saving_on_manual": 0.1044802651142559,
+  "extra_milliseconds": 20.08454800111209,
+  "increment_percentage_points_on_full": 2.1268472635394398,
+  "additional_detection_losses": 20,
+  "additional_handoff_losses": 11,
+  "policy_cross_cells": [
+    {
+      "role": "H0",
+      "manual_stop": false,
+      "learned_stop": false,
+      "n": 957,
+      "rank64_detections": 250,
+      "rank64_handoffs": 0
+    },
+    {
+      "role": "H0",
+      "manual_stop": false,
+      "learned_stop": true,
+      "n": 1350,
+      "rank64_detections": 10,
+      "rank64_handoffs": 0
+    },
+    {
+      "role": "H0",
+      "manual_stop": true,
+      "learned_stop": false,
+      "n": 130,
+      "rank64_detections": 0,
+      "rank64_handoffs": 0
+    },
+    {
+      "role": "H0",
+      "manual_stop": true,
+      "learned_stop": true,
+      "n": 11963,
+      "rank64_detections": 0,
+      "rank64_handoffs": 0
+    },
+    {
+      "role": "H1",
+      "manual_stop": false,
+      "learned_stop": false,
+      "n": 9034,
+      "rank64_detections": 8069,
+      "rank64_handoffs": 7891
+    },
+    {
+      "role": "H1",
+      "manual_stop": false,
+      "learned_stop": true,
+      "n": 1032,
+      "rank64_detections": 20,
+      "rank64_handoffs": 11
+    },
+    {
+      "role": "H1",
+      "manual_stop": true,
+      "learned_stop": false,
+      "n": 43,
+      "rank64_detections": 0,
+      "rank64_handoffs": 0
+    },
+    {
+      "role": "H1",
+      "manual_stop": true,
+      "learned_stop": true,
+      "n": 2851,
+      "rank64_detections": 0,
+      "rank64_handoffs": 0
+    }
+  ]
+}

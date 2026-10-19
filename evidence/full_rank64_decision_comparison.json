@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "H1_n": 12960,
+    "H1_detection_disagreements": 22,
+    "H1_full_only_detected": 11,
+    "H1_rank64_only_detected": 11,
+    "H1_handoff_disagreements": 25,
+    "H1_differing_events": 26,
+    "H0_n": 14400,
+    "H0_detection_disagreements": 7,
+    "H0_full_only_detected": 1,
+    "H0_rank64_only_detected": 6,
+    "H0_handoff_disagreements": 0,
+    "H0_differing_events": 7
+  },
+  "H1_score_absolute_difference_max": 0.4868937519212828,
+  "H1_score_absolute_difference_mean": 0.02246815294929463,
+  "H1_min_absolute_calibrated_margin": {
+    "PIML-full": 0.0005475568821062815,
+    "PIML-64": 5.878552021587602e-05
+  },
+  "source": "completed original campaign events; no new simulation"
+}

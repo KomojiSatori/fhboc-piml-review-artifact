@@ -1,0 +1,98 @@
+{
+  "scope": "Post-hoc diagnostic upper envelopes on completed evaluation records; no new frozen-policy performance or latency measurement.",
+  "budgets": [
+    [
+      0,
+      0
+    ],
+    [
+      20,
+      11
+    ],
+    [
+      30,
+      20
+    ],
+    [
+      65,
+      40
+    ]
+  ],
+  "manual": [
+    {
+      "max_detection_losses": 0,
+      "max_handoff_losses": 0,
+      "threshold": 0.523191737191258,
+      "rejected": 17414,
+      "continued": 9946,
+      "detection_losses": 0,
+      "handoff_losses": 0
+    },
+    {
+      "max_detection_losses": 20,
+      "max_handoff_losses": 11,
+      "threshold": 0.9228446228042854,
+      "rejected": 18568,
+      "continued": 8792,
+      "detection_losses": 15,
+      "handoff_losses": 11
+    },
+    {
+      "max_detection_losses": 30,
+      "max_handoff_losses": 20,
+      "threshold": 0.9929451910584247,
+      "rejected": 18684,
+      "continued": 8676,
+      "detection_losses": 25,
+      "handoff_losses": 20
+    },
+    {
+      "max_detection_losses": 65,
+      "max_handoff_losses": 40,
+      "threshold": 1.0791155361080187,
+      "rejected": 18846,
+      "continued": 8514,
+      "detection_losses": 45,
+      "handoff_losses": 40
+    }
+  ],
+  "learned": [
+    {
+      "max_detection_losses": 0,
+      "max_handoff_losses": 0,
+      "threshold": -1.4678846826784877,
+      "rejected": 14997,
+      "continued": 12363,
+      "detection_losses": 0,
+      "handoff_losses": 0
+    },
+    {
+      "max_detection_losses": 20,
+      "max_handoff_losses": 11,
+      "threshold": 0.0670398632473308,
+      "rejected": 17273,
+      "continued": 10087,
+      "detection_losses": 20,
+      "handoff_losses": 11
+    },
+    {
+      "max_detection_losses": 30,
+      "max_handoff_losses": 20,
+      "threshold": 0.431098540249657,
+      "rejected": 17636,
+      "continued": 9724,
+      "detection_losses": 29,
+      "handoff_losses": 20
+    },
+    {
+      "max_detection_losses": 65,
+      "max_handoff_losses": 40,
+      "threshold": 0.8460506924908273,
+      "rejected": 17992,
+      "continued": 9368,
+      "detection_losses": 49,
+      "handoff_losses": 40
+    }
+  ],
+  "interpretation": "Compare number of continuation calls; candidate thresholds are selected on these same records and require development-only selection plus fresh confirmation."
+}

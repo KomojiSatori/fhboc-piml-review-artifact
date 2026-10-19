@@ -1,0 +1,482 @@
+[
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "fresh_c1_g1",
+    "train_groups": [
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "fresh_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "pilot_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "pilot_c1_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "pilot_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "pilot_c2_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "validation_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "tree",
+    "held_out": "validation_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "fresh_c1_g1",
+    "train_groups": [
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "fresh_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "pilot_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "pilot_c1_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "pilot_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "pilot_c2_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "validation_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "continue",
+    "kind": "linear",
+    "held_out": "validation_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "fresh_c1_g1",
+    "train_groups": [
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "fresh_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "pilot_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "pilot_c1_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "pilot_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "pilot_c2_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "validation_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "tree",
+    "held_out": "validation_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "fresh_c1_g1",
+    "train_groups": [
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "fresh_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 290
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "pilot_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "pilot_c1_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "pilot_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g2",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "pilot_c2_g2",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "validation_c1_g1",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "validation_c1_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c2_g1"
+    ],
+    "train_records": 335
+  },
+  {
+    "target": "refine",
+    "kind": "linear",
+    "held_out": "validation_c2_g1",
+    "train_groups": [
+      "fresh_c1_g1",
+      "fresh_c2_g1",
+      "pilot_c1_g1",
+      "pilot_c1_g2",
+      "pilot_c2_g1",
+      "pilot_c2_g2",
+      "validation_c1_g1"
+    ],
+    "train_records": 335
+  }
+]

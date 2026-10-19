@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-15",
+  "frames": 6,
+  "conditions": [
+    1,
+    2
+  ],
+  "strengths": [
+    32,
+    36
+  ],
+  "H1_per_condition_strength": 100,
+  "calibration_H0_per_geometry": 50,
+  "test_H0_per_geometry": 100,
+  "variants": {
+    "G_ind": "逐帧独立复幅度／噪声尺度GLRT；最大状态读出",
+    "G_coh": "六帧共同复幅度／噪声尺度GLRT；最大状态读出",
+    "P_MAP": "等权幅度混合物理证据；MAP状态读出",
+    "P_WIN": "等权幅度混合物理证据；交接窗口读出",
+    "A_MAP": "冻结学习幅度权重；MAP状态读出",
+    "A_WIN": "冻结学习幅度权重；交接窗口读出",
+    "S_MAP": "A＋检测／定位状态修正；MAP状态读出",
+    "S_WIN": "A＋检测／定位状态修正；交接窗口读出",
+    "F_MAP": "完整冻结检测分数；MAP状态读出",
+    "F_WIN": "完整冻结PIML；交接窗口读出"
+  },
+  "fixed_amplitude_weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "rho": [
+    4.0,
+    8.0,
+    16.0,
+    32.0,
+    64.0
+  ],
+  "path_uniform_fraction": 0.1,
+  "learned_coefficients": "All retained unchanged; interventions only switch the listed components",
+  "baseline_physics": "P has fixed equal amplitude weights and zero state/record correction",
+  "statistical_reference": "G_ind and G_coh compare phase-group nuisance constraints on the same templates and full state grid",
+  "calibration": "Each variant/geometry maximum of the same calibration H0; strict >",
+  "comparison": "P_MAP vs P_WIN, A_MAP vs A_WIN, S_MAP vs S_WIN, F_MAP vs F_WIN isolate readout at identical scores",
+  "data": "Existing old+extension paired records; no new observations or fitting"
+}

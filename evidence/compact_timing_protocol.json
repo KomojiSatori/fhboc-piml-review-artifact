@@ -1,0 +1,17 @@
+{
+  "geometries": [
+    "c1_g1",
+    "c1_g2",
+    "c2_g1",
+    "c2_g2"
+  ],
+  "selection": "first four H1 at each integer C/N0 30..38, first 40 holdout_H0 per geometry",
+  "captures": 304,
+  "repeats": 2,
+  "probability_threshold": 0.1,
+  "policy_order": "cyclic rotation by observation index plus repeat",
+  "fitting": "existing eight-geometry historical-development models; no new fitting",
+  "timing": "warm cached whitened PMF and physical response bank; projection, feature extraction, decision, continuation, readout included",
+  "threads": 2,
+  "source_sha256": "c853e77d2cd0a5d94db6f49f023ea502a35d8afc9dd779402b44ebecd70906e4"
+}

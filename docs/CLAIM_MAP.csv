@@ -1,0 +1,8 @@
+claim,experiment,input,regenerated_output
+nominal high dynamic 34 dB-Hz 329/480 vs 243/480 vs 180/480,MAIN_GAUSSIAN,data/main/c2_g*/events.jsonl,reproduced/main_performance.csv
+7903/7902/7902/7891 handoffs and recorded backend latency,MAIN_GAUSSIAN,data/main/c*_g*/events.jsonl,reproduced/main_claims.json
+paired 10.83..24.79 percentage-point interval,MAIN_GAUSSIAN,data/main/c2_g*/events.jsonl,reproduced/main_claims.json
+controller input ablation Table 1,MAIN_GAUSSIAN,data/main/c*_g*/controller_inputs.jsonl plus models/stop_variants.json,reproduced/controller_input_ablation.csv
+32/36 dB-Hz independent/common nuisance constraints,COMPONENT_GAUSSIAN_6F,data/component/method_events.csv,reproduced/component_independent_calibration.csv
+CTTC and TEXBAT independent calibration and empirical points,RECORDED_BACKGROUND,data/recorded/method_events.csv,reproduced/recorded_methods.csv
+recorded P/A/S/F comparisons,RECORDED_BACKGROUND,data/recorded/ablation_events.csv,reproduced/recorded_ablation.csv

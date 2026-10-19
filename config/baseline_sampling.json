@@ -1,0 +1,34 @@
+{
+  "sample_rate_hz": 100000000,
+  "pmf_segments": 64,
+  "segment_samples": 1562,
+  "frame_duration_s": 0.001,
+  "common_initial_fd_half_width_hz": 2500,
+  "common_rate_bounds_hz_s": [
+    -250000,
+    250000
+  ],
+  "BASIC": {
+    "subcorrelations_per_frame": 4,
+    "subcorrelation_s": 0.00024992,
+    "coarse_frequency_step_hz": 500,
+    "residual_frequency_bounds_hz": [
+      -250,
+      250
+    ],
+    "rate_transform_length": 2048,
+    "frequency_transform_length": 2048,
+    "frequency_grid_step_hz": 0.48828125,
+    "rate_grid_step_hz_s": 488.28125
+  },
+  "compensated_NCI": {
+    "fft_length": 4096,
+    "frequency_grid_step_hz": 15.630001600512164,
+    "trajectory_sampling": "Same aided initial-state grid as PIML; bilinear power interpolation"
+  },
+  "selection_basis": "BASIC branch overlap and short-aperture correlation loss; dense spectral grids; trajectory-query interpolation for compensated NCI",
+  "source": [
+    "source_reference/python_ai/reporting/audit_basic_receiver_20261016.py",
+    "source_reference/python_ai/reporting/fhboc_fair_baselines_20261015.py"
+  ]
+}

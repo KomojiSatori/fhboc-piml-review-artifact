@@ -1,0 +1,36 @@
+{
+  "geometries": [
+    "c1_g1",
+    "c1_g2",
+    "c2_g1",
+    "c2_g2"
+  ],
+  "strengths": [
+    32,
+    34,
+    36
+  ],
+  "calibration_H0_per_geometry": 400,
+  "test_H0_per_geometry": 800,
+  "H1_per_strength_per_geometry": 80,
+  "methods": [
+    "static-original",
+    "static-maximum",
+    "trajectory-zero-global-maximum",
+    "trajectory-zero-global-marginal",
+    "trajectory-zero-local-maximum",
+    "trajectory-zero-local-marginal",
+    "trajectory-full-global-maximum",
+    "trajectory-full-global-marginal",
+    "trajectory-full-local-maximum",
+    "trajectory-full-local-marginal"
+  ],
+  "new_observations": 0,
+  "diagnostic_only": true,
+  "selection": "First two nominal geometries per dynamic; all records at preselected strengths.",
+  "zero_rate": "A zero-rate trajectory still propagates code delay with candidate initial Doppler.",
+  "global_normalization": "Full 4096-bin by 51-delay FFT power mean, matching frozen compensated NCI.",
+  "local_normalization": "Original 1024 FFT bins within aided +/-2500 Hz, all 51 delays, matching frozen static NCI.",
+  "marginal": "Same six-frame scale-GLRT transform and normalized aided state prior in both rate domains.",
+  "source_sha256": "5cd8fd04a190f15f4b2215eefefc0818f66158415bbe2b169bb5959017de3712"
+}

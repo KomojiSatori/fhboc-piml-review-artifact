@@ -1,0 +1,211 @@
+{
+  "beta_detection": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "beta_localization": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "history": [
+    {
+      "temperature": 0.1,
+      "objective": -0.5183265174833787,
+      "evaluations": 15,
+      "beta": [
+        -0.06112752543703072,
+        -0.09042195352691902,
+        0.1634672494689337,
+        -0.04580849190026361,
+        0.040792537193174806,
+        0.0875299125036862,
+        -0.05427874172367235,
+        -0.078636523251512
+      ]
+    },
+    {
+      "temperature": 0.03,
+      "objective": -0.5344603724419421,
+      "evaluations": 11,
+      "beta": [
+        -0.0765241665870139,
+        -0.1519170170091467,
+        0.17524479512777416,
+        -0.008104530540812768,
+        -0.021291809085562982,
+        0.09535102172610567,
+        -0.06177243090014438,
+        -0.07324771557917856
+      ]
+    }
+  ],
+  "mean": [
+    0.02505387637819124,
+    0.011490610149207282,
+    3.706756922742031,
+    0.004621092100017051,
+    0.06737367452008398,
+    0.03021687145194127,
+    0.0806149114005427,
+    0.2752940419490352
+  ],
+  "scale": [
+    2.2273678873466554,
+    1.4084828660315565,
+    0.8151037717557146,
+    0.9960131921391429,
+    0.24413581109252674,
+    0.12170918311622399,
+    0.315379740251361,
+    0.7193286660770384
+  ],
+  "clip": 5.0,
+  "amplitude_model": {
+    "rho": [
+      4.0,
+      8.0,
+      16.0,
+      32.0,
+      64.0
+    ],
+    "families": [
+      "gaussian"
+    ],
+    "weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "component_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "broad_prior_fraction": 0.1,
+    "uniform_path_fraction": 0.1,
+    "training_records": 240,
+    "new_observations": 0,
+    "objective": 1.9897209932227715,
+    "training_CVaR_offsets": [
+      0.4987225117245345,
+      0.9945838234868364
+    ],
+    "target_pfa": 0.02,
+    "weak_H1_weight": 0.75,
+    "tail_softness": 0.1,
+    "inference_inputs": "Full-grid coherent direction and aided prior; training tail offsets are not inference inputs"
+  },
+  "training_records": 240,
+  "new_observations": 0,
+  "objective": "Frozen-locator correctness times softened detection, continued to temperature 0.03",
+  "inference_inputs": "Physical observations, features and aided state grid",
+  "label_use": "Fixed-locator correct events weight training only",
+  "complex_feature_mean": [
+    0.6738926110882711,
+    1.1596059416098126,
+    0.3034979606025049,
+    0.5727722679732395,
+    -0.29515593448081534,
+    0.8601063727277274,
+    0.9397868106841614,
+    0.7703607663528359
+  ],
+  "complex_feature_scale": [
+    0.06014020198431328,
+    0.08729463045536738,
+    0.08618181837393148,
+    0.09294594392785938,
+    0.1572977872842372,
+    0.02400495490177996,
+    0.014610657224575371,
+    0.039792233648482285
+  ],
+  "complex_feature_clip": 4,
+  "complex_feature_beta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "selection": {
+    "grouped_selection": {
+      "32": {
+        "n": 50,
+        "handoffs": 13,
+        "gains": 1,
+        "losses": 0
+      },
+      "36": {
+        "n": 50,
+        "handoffs": 48,
+        "gains": 0,
+        "losses": 0
+      },
+      "false_count": 4,
+      "baseline_false_count": 4
+    },
+    "expanded_development": {
+      "32": {
+        "n": 50,
+        "handoffs": 14,
+        "gains": 2,
+        "losses": 0
+      },
+      "36": {
+        "n": 50,
+        "handoffs": 48,
+        "gains": 0,
+        "losses": 0
+      },
+      "false_count": 4,
+      "baseline_false_count": 4
+    },
+    "original_pilot": {
+      "32": {
+        "n": 20,
+        "handoffs": 8,
+        "gains": 0,
+        "losses": 0
+      },
+      "36": {
+        "n": 20,
+        "handoffs": 20,
+        "gains": 0,
+        "losses": 0
+      },
+      "false_count": 2,
+      "baseline_false_count": 2
+    },
+    "accepted": true
+  },
+  "feature_names": [
+    "loo_innovation_mean_log",
+    "loo_innovation_max_log",
+    "adjacent_phase_agreement",
+    "odd_even_phase_agreement",
+    "minimum_loo_phase_agreement",
+    "frequency_complex_support",
+    "delay_complex_support",
+    "rate_complex_support"
+  ]
+}

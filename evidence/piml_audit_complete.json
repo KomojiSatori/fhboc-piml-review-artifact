@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "geometries": 18,
+  "implementation_gates_passed": true,
+  "old_correct": 8,
+  "MAP_correct": 18,
+  "candidate_correct": 18,
+  "raw_clean_max_relative_error": 4.1544246247146475e-13,
+  "whitened_clean_max_relative_error": 1.2827740508077505e-12,
+  "window_direct_sum_max_absolute_error": 0.0,
+  "frozen_source_files_unchanged": true,
+  "source_sha256": "6b04119b4e6e338f9a1ea28916dd595e90580f19a4f2783e8f692c3f174116c7"
+}

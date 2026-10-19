@@ -1,0 +1,13 @@
+source,sbr_db,first,last,gains,losses,Ph_difference,exact_McNemar_p
+cttc,-34,P_WIN,A_WIN,0,0,0.0,1.0
+cttc,-34,A_WIN,S_WIN,2,0,0.02,0.5
+cttc,-34,S_WIN,F_WIN,0,1,-0.01,1.0
+cttc,-30,P_WIN,A_WIN,0,0,0.0,1.0
+cttc,-30,A_WIN,S_WIN,1,0,0.01,1.0
+cttc,-30,S_WIN,F_WIN,1,1,0.0,1.0
+texbat,-34,P_WIN,A_WIN,0,0,0.0,1.0
+texbat,-34,A_WIN,S_WIN,0,0,0.0,1.0
+texbat,-34,S_WIN,F_WIN,0,0,0.0,1.0
+texbat,-30,P_WIN,A_WIN,0,0,0.0,1.0
+texbat,-30,A_WIN,S_WIN,1,0,0.01,1.0
+texbat,-30,S_WIN,F_WIN,2,1,0.01,1.0

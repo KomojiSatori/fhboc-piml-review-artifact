@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "source": "c1_g6",
+  "checks": [
+    {
+      "method": "PIML-64",
+      "fd_error_hz": -268.26094605150865,
+      "tau_error_samples": -0.683464511514444,
+      "localized": false
+    },
+    {
+      "method": "NCI-compensated",
+      "fd_error_hz": -18.260946051508654,
+      "tau_error_samples": -0.17354652139113114,
+      "localized": true
+    },
+    {
+      "method": "BASIC-quarter-ms",
+      "fd_error_hz": -0.1945398015086539,
+      "tau_error_samples": -0.01109484822234208,
+      "localized": true
+    }
+  ],
+  "all_noiseless_handoffs_correct": false,
+  "construction": "Paired 30/38 dB-Hz raw PMF cancels identical noise. Truth only labels output errors; no detector/adapter update.",
+  "source_sha256": "e3f958df0fbc70690c2272a2f734ba825098837c81b124161b33eb4c52080895"
+}

@@ -1,0 +1,167 @@
+{
+  "methods": {
+    "BASIC-quarter-ms": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 7114,
+      "handoff": 6982,
+      "false_alarms": 254,
+      "Pfa": 0.017638888888888888,
+      "mean_ms": 262.23954379753695,
+      "H0_ms": 261.4832280833232,
+      "H1_ms": 263.07989459110775,
+      "H0_stop": 0.0
+    },
+    "NCI": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 6179,
+      "handoff": 5020,
+      "false_alarms": 276,
+      "Pfa": 0.019166666666666665,
+      "mean_ms": 1.5600156213450294,
+      "H0_ms": 1.4827137222222222,
+      "H1_ms": 1.6459066203703703,
+      "H0_stop": 0.0
+    },
+    "NCI-compensated": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 6355,
+      "handoff": 5943,
+      "false_alarms": 283,
+      "Pfa": 0.01965277777777778,
+      "mean_ms": 43.685281505870016,
+      "H0_ms": 43.6241351462781,
+      "H1_ms": 43.75322190541659,
+      "H0_stop": 0.0
+    },
+    "PIML-64": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 8089,
+      "handoff": 7902,
+      "false_alarms": 260,
+      "Pfa": 0.018055555555555554,
+      "mean_ms": 312.8101254087182,
+      "H0_ms": 310.59125167949884,
+      "H1_ms": 315.2755406634062,
+      "H0_stop": 0.0
+    },
+    "PIML-full": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 8089,
+      "handoff": 7903,
+      "false_alarms": 255,
+      "Pfa": 0.017708333333333333,
+      "mean_ms": 944.3342897922977,
+      "H0_ms": 941.2183630560806,
+      "H1_ms": 947.7964306103169,
+      "H0_stop": 0.0
+    },
+    "learned-stop": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 8069,
+      "handoff": 7891,
+      "false_alarms": 250,
+      "Pfa": 0.017361111111111112,
+      "mean_ms": 172.14838688997315,
+      "H0_ms": 81.44443308398573,
+      "H1_ms": 272.9305577855148,
+      "H0_stop": 0.9245138888888889
+    },
+    "manual-stop": {
+      "n_H1": 12960,
+      "n_H0": 14400,
+      "detected": 8089,
+      "handoff": 7902,
+      "false_alarms": 260,
+      "Pfa": 0.018055555555555554,
+      "mean_ms": 192.23293489108525,
+      "H0_ms": 103.39375663974756,
+      "H1_ms": 290.94313294812713,
+      "H0_stop": 0.8397916666666667
+    }
+  },
+  "ablations": {
+    "all58": {
+      "dim": 58,
+      "continued": 10164,
+      "detection_losses": 20,
+      "handoff_losses": 11
+    },
+    "without_probes": {
+      "dim": 30,
+      "continued": 10378,
+      "detection_losses": 6,
+      "handoff_losses": 3
+    },
+    "without_globals": {
+      "dim": 44,
+      "continued": 10298,
+      "detection_losses": 15,
+      "handoff_losses": 6
+    },
+    "without_complex": {
+      "dim": 50,
+      "continued": 10275,
+      "detection_losses": 18,
+      "handoff_losses": 13
+    },
+    "without_state": {
+      "dim": 50,
+      "continued": 10308,
+      "detection_losses": 14,
+      "handoff_losses": 10
+    },
+    "globals14": {
+      "dim": 14,
+      "continued": 11007,
+      "detection_losses": 0,
+      "handoff_losses": 0
+    },
+    "probes28": {
+      "dim": 28,
+      "continued": 22994,
+      "detection_losses": 189,
+      "handoff_losses": 179
+    },
+    "surrogate1": {
+      "dim": 1,
+      "continued": 25966,
+      "detection_losses": 0,
+      "handoff_losses": 0
+    }
+  },
+  "paired": {
+    "PIML-full": {
+      "shared_detections": 8078,
+      "gains": 11,
+      "losses": 11,
+      "handoff_gains": 13,
+      "handoff_losses": 12
+    },
+    "manual-stop": {
+      "shared_detections": 8089,
+      "gains": 0,
+      "losses": 0,
+      "handoff_gains": 0,
+      "handoff_losses": 0
+    },
+    "learned-stop": {
+      "shared_detections": 8069,
+      "gains": 0,
+      "losses": 20,
+      "handoff_gains": 0,
+      "handoff_losses": 11
+    }
+  },
+  "reported_timing_reductions": {
+    "manual_vs64": 38.546447420807304,
+    "learned_vs64": 44.967130886494225,
+    "learned_vsmanual": 10.448026511425601,
+    "learned_vsfull": 81.77039754345503
+  }
+}
